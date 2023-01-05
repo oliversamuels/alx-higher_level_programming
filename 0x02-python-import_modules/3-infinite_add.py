@@ -7,5 +7,5 @@ if __name__ == "__main__":
     res = 0
     while index <= argv_count:
         res += int(sys.argv[index])
-	index += 1
+        index += 1
     print("{:d}".format(res))
