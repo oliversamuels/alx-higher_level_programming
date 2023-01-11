@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def common_element(set1, set2):
-    return set1 & set2
+def common_element(set_1, set_2):
+    return set(set_1) & set(set_2)
