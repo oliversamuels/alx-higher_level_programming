@@ -8,9 +8,9 @@ if __name__ == "__main__":
         print("{:d} arguments.".format(argv_count))
     elif argv_count == 1:
         print("{:d} argument:".format(argv_count))
-        print("{:d}: {:s}".format(index, sys.argv[1]))
+        print("{:d}: {:s}".format(index, argv[0]))
     else:
         print("{:d} arguments:".format(argv_count))
         while index <= argv_count:
-            print("{:d}: {:s}".format(index, sys.argv[index]))
+            print("{:d}: {:s}".format(index, argv[index - 1]))
             index += 1

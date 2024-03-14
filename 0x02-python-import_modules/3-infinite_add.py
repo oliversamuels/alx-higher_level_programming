@@ -4,8 +4,8 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
     argv_count = len(argv)
     index = 1
-    res = 0
+    summation = 0
     while index <= argv_count:
-        res += int(sys.argv[index])
+        summation += int(argv[index - 1])
         index += 1
-    print("{:d}".format(res))
+    print("{:d}".format(summation))
